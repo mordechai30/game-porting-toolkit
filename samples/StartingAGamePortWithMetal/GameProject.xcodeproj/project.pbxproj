@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD3510F2BB4E33B008CEA71 /* GameApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637ED32B14DAA7003D2116 /* GameApplication.m */; platformFilter = ios; };
+		0DD351102BB4F16E008CEA71 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637ED92B14DAA7003D2116 /* GameView.m */; platformFilter = ios; };
+		71006A6F2B856A5D0076C0F8 /* Haptics.m in Sources */ = {isa = PBXBuildFile; fileRef = 71006A6E2B856A5D0076C0F8 /* Haptics.m */; };
+		71006A712B856A740076C0F8 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71006A702B856A740076C0F8 /* CoreHaptics.framework */; };
+		71006A732B856A810076C0F8 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71006A722B856A810076C0F8 /* GameController.framework */; };
+		71142AAF2C224E230058A3C0 /* UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71142AAE2C224E230058A3C0 /* UI.cpp */; };
+		71142AB02C224E230058A3C0 /* UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71142AAE2C224E230058A3C0 /* UI.cpp */; };
+		713837CA2B90116C000C6E03 /* PhaseAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 713837C82B90116C000C6E03 /* PhaseAudio.mm */; };
+		713837CC2B901705000C6E03 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713837CB2B901705000C6E03 /* AVFAudio.framework */; };
+		713837CE2B90170A000C6E03 /* PHASE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713837CD2B90170A000C6E03 /* PHASE.framework */; };
+		714912AD2B5213380018D7B4 /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 714912AB2B5213380018D7B4 /* Controller.mm */; };
+		715F250A2B1A58E900E2CD56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637EE42B14DAA8003D2116 /* main.m */; platformFilter = ios; };
+		71637CA429F0F4A1005FCCC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71637C1B29F0F4A1005FCCC5 /* Assets.xcassets */; };
+		71637CA629F0F4A1005FCCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637C1F29F0F4A1005FCCC5 /* main.m */; platformFilters = (macos, ); };
+		71637CA729F0F4A1005FCCC5 /* GameApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637C2029F0F4A1005FCCC5 /* GameApplication.m */; platformFilters = (macos, ); };
+		71637CAC29F0F4A1005FCCC5 /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71637C9729F0F4A1005FCCC5 /* MeshUtils.cpp */; };
+		71637CAD29F0F4A1005FCCC5 /* GameCoordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71637C9829F0F4A1005FCCC5 /* GameCoordinator.cpp */; };
+		71637CAF29F0F4A1005FCCC5 /* MathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71637C9C29F0F4A1005FCCC5 /* MathUtils.cpp */; };
+		71637CD029F0F727005FCCC5 /* GameCoordinatorController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71637CCF29F0F727005FCCC5 /* GameCoordinatorController.mm */; };
+		71721B852BC261F700B8D21A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 71721B842BC261F700B8D21A /* Icon.png */; };
+		71798B4729F1F5CA00082E4A /* BumpAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71798B4629F1F5CA00082E4A /* BumpAllocator.cpp */; };
+		717EFE8F2B3240650005C310 /* ShaderPipelineBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 715419BB2B14EE9600CDEB54 /* ShaderPipelineBuilder.cpp */; };
+		718CF8952977819C0074FAD6 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CF8942977819C0074FAD6 /* Metal.framework */; };
+		718CF897297781A10074FAD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CF896297781A10074FAD6 /* QuartzCore.framework */; };
+		718CF899297781A80074FAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CF898297781A80074FAD6 /* Foundation.framework */; };
+		719B4D222BC5EC1500506D71 /* MetalFX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B4D212BC5EC1500506D71 /* MetalFX.framework */; };
+		719FDBD129805DEB00C2D9D2 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719FDBD029805DEB00C2D9D2 /* MetalKit.framework */; };
+		71B298DB2B68810E00944938 /* sprite_instanced_vs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D22B68810E00944938 /* sprite_instanced_vs.metallib */; };
+		71B298DC2B68810E00944938 /* present_fs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D32B68810E00944938 /* present_fs.metallib */; };
+		71B298DD2B68810E00944938 /* explosion0.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D42B68810E00944938 /* explosion0.png */; };
+		71B298DF2B68810E00944938 /* enemy0.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D62B68810E00944938 /* enemy0.png */; };
+		71B298E02B68810E00944938 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D72B68810E00944938 /* player.png */; };
+		71B298E12B68810E00944938 /* present_vs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D82B68810E00944938 /* present_vs.metallib */; };
+		71B298E22B68810E00944938 /* sprite_instanced_fs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D92B68810E00944938 /* sprite_instanced_fs.metallib */; };
+		71B298E32B68810E00944938 /* bullet0.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298DA2B68810E00944938 /* bullet0.png */; };
+		71B6FCD72B388FF0007BAD8F /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71B6FCD52B388FF0007BAD8F /* Game.cpp */; };
+		71B6FCDA2B38B656007BAD8F /* TextureLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71B6FCD92B38B656007BAD8F /* TextureLoader.mm */; };
+		71C5A8082BD3187300C7B760 /* GameCollisions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8072BD3187300C7B760 /* GameCollisions.cpp */; };
+		71CCC3ED2C06A64500E6CCEE /* CloudSaveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CCC3EB2C06A5B800E6CCEE /* CloudSaveManager.m */; };
+		71CCC3F32C079B5800E6CCEE /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71637C9729F0F4A1005FCCC5 /* MeshUtils.cpp */; };
+		71CCC3F42C079B5800E6CCEE /* MathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71637C9C29F0F4A1005FCCC5 /* MathUtils.cpp */; };
+		71CCC3F52C079B5800E6CCEE /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71B6FCD52B388FF0007BAD8F /* Game.cpp */; };
+		71CCC3F62C079B5800E6CCEE /* Haptics.m in Sources */ = {isa = PBXBuildFile; fileRef = 71006A6E2B856A5D0076C0F8 /* Haptics.m */; };
+		71CCC3F72C079B5800E6CCEE /* GameCoordinatorController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71637CCF29F0F727005FCCC5 /* GameCoordinatorController.mm */; };
+		71CCC3F82C079B5800E6CCEE /* PhaseAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 713837C82B90116C000C6E03 /* PhaseAudio.mm */; };
+		71CCC3F92C079B5800E6CCEE /* GameCoordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71637C9829F0F4A1005FCCC5 /* GameCoordinator.cpp */; };
+		71CCC3FA2C079B5800E6CCEE /* BumpAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71798B4629F1F5CA00082E4A /* BumpAllocator.cpp */; };
+		71CCC3FB2C079B5800E6CCEE /* GameRendering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D3745D2B7D88B100AE6EB8 /* GameRendering.cpp */; };
+		71CCC3FC2C079B5800E6CCEE /* CloudSaveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CCC3EB2C06A5B800E6CCEE /* CloudSaveManager.m */; };
+		71CCC3FD2C079B5800E6CCEE /* TextureLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71B6FCD92B38B656007BAD8F /* TextureLoader.mm */; };
+		71CCC3FE2C079B5800E6CCEE /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 714912AB2B5213380018D7B4 /* Controller.mm */; };
+		71CCC3FF2C079B5800E6CCEE /* ShaderPipelineBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 715419BB2B14EE9600CDEB54 /* ShaderPipelineBuilder.cpp */; };
+		71CCC4002C079B5800E6CCEE /* GameCollisions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8072BD3187300C7B760 /* GameCollisions.cpp */; };
+		71CCC4012C079B5800E6CCEE /* GameApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637ED32B14DAA7003D2116 /* GameApplication.m */; platformFilter = ios; };
+		71CCC4022C079B5800E6CCEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637EE42B14DAA8003D2116 /* main.m */; platformFilter = ios; };
+		71CCC4032C079B5800E6CCEE /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637ED92B14DAA7003D2116 /* GameView.m */; platformFilter = ios; };
+		71CCC4042C079B5800E6CCEE /* GameApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637C2029F0F4A1005FCCC5 /* GameApplication.m */; platformFilters = (macos, ); };
+		71CCC4052C079B5800E6CCEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71637C1F29F0F4A1005FCCC5 /* main.m */; platformFilters = (macos, ); };
+		71CCC4072C079B5800E6CCEE /* MetalFX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B4D212BC5EC1500506D71 /* MetalFX.framework */; };
+		71CCC4082C079B5800E6CCEE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FA28272B915E0B00E5A608 /* CoreMotion.framework */; };
+		71CCC4092C079B5800E6CCEE /* PHASE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713837CD2B90170A000C6E03 /* PHASE.framework */; };
+		71CCC40A2C079B5800E6CCEE /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713837CB2B901705000C6E03 /* AVFAudio.framework */; };
+		71CCC40B2C079B5800E6CCEE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71006A722B856A810076C0F8 /* GameController.framework */; };
+		71CCC40C2C079B5800E6CCEE /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71006A702B856A740076C0F8 /* CoreHaptics.framework */; };
+		71CCC40D2C079B5800E6CCEE /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719FDBD029805DEB00C2D9D2 /* MetalKit.framework */; };
+		71CCC40E2C079B5800E6CCEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CF898297781A80074FAD6 /* Foundation.framework */; };
+		71CCC40F2C079B5800E6CCEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CF896297781A10074FAD6 /* QuartzCore.framework */; };
+		71CCC4102C079B5800E6CCEE /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CF8942977819C0074FAD6 /* Metal.framework */; };
+		71CCC4122C079B5800E6CCEE /* explosion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8462BEC2A9500217D26 /* explosion1.png */; };
+		71CCC4132C079B5800E6CCEE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FA28252B9146C800E5A608 /* background.png */; };
+		71CCC4142C079B5800E6CCEE /* laser2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB83E2BEBD8A800217D26 /* laser2.mp3 */; };
+		71CCC4152C079B5800E6CCEE /* failure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8422BEBE35100217D26 /* failure.mp3 */; };
+		71CCC4162C079B5800E6CCEE /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8432BEBE35100217D26 /* success.mp3 */; };
+		71CCC4172C079B5800E6CCEE /* present_vs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D82B68810E00944938 /* present_vs.metallib */; };
+		71CCC4182C079B5800E6CCEE /* present_fs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D32B68810E00944938 /* present_fs.metallib */; };
+		71CCC4192C079B5800E6CCEE /* sprite_instanced_fs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D92B68810E00944938 /* sprite_instanced_fs.metallib */; };
+		71CCC41A2C079B5800E6CCEE /* sprite_instanced_vs.metallib in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D22B68810E00944938 /* sprite_instanced_vs.metallib */; };
+		71CCC41B2C079B5800E6CCEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71637C1B29F0F4A1005FCCC5 /* Assets.xcassets */; };
+		71CCC41C2C079B5800E6CCEE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 71721B842BC261F700B8D21A /* Icon.png */; };
+		71CCC41D2C079B5800E6CCEE /* enemy0.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D62B68810E00944938 /* enemy0.png */; };
+		71CCC41E2C079B5800E6CCEE /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D72B68810E00944938 /* player.png */; };
+		71CCC41F2C079B5800E6CCEE /* explosion0.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298D42B68810E00944938 /* explosion0.png */; };
+		71CCC4202C079B5800E6CCEE /* bullet0.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B298DA2B68810E00944938 /* bullet0.png */; };
+		71CCC4212C079B5800E6CCEE /* enemy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB83B2BEB04CB00217D26 /* enemy2.png */; };
+		71CCC4222C079B5800E6CCEE /* enemy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB83A2BEB04CB00217D26 /* enemy1.png */; };
+		71CCC4232C079B5800E6CCEE /* impact2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8402BEBE29B00217D26 /* impact2.mp3 */; };
+		71D3745E2B7D88B100AE6EB8 /* GameRendering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D3745D2B7D88B100AE6EB8 /* GameRendering.cpp */; };
+		71DAB83C2BEB04CB00217D26 /* enemy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB83B2BEB04CB00217D26 /* enemy2.png */; };
+		71DAB83D2BEB04CB00217D26 /* enemy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB83A2BEB04CB00217D26 /* enemy1.png */; };
+		71DAB83F2BEBD8A800217D26 /* laser2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB83E2BEBD8A800217D26 /* laser2.mp3 */; };
+		71DAB8412BEBE29B00217D26 /* impact2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8402BEBE29B00217D26 /* impact2.mp3 */; };
+		71DAB8442BEBE35100217D26 /* failure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8422BEBE35100217D26 /* failure.mp3 */; };
+		71DAB8452BEBE35100217D26 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8432BEBE35100217D26 /* success.mp3 */; };
+		71DAB8472BEC2A9500217D26 /* explosion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DAB8462BEC2A9500217D26 /* explosion1.png */; };
+		71FA28262B9146D200E5A608 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FA28252B9146C800E5A608 /* background.png */; };
+		71FA28282B915E0B00E5A608 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FA28272B915E0B00E5A608 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		710D0B3629BF9D9000A2078B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CCC4242C079B5800E6CCEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		504B957A2955FD5500B35359 /* GameProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71006A6B2B84085B0076C0F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71006A6D2B856A5D0076C0F8 /* Haptics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haptics.h; sourceTree = "<group>"; };
+		71006A6E2B856A5D0076C0F8 /* Haptics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Haptics.m; sourceTree = "<group>"; };
+		71006A702B856A740076C0F8 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreHaptics.framework; sourceTree = DEVELOPER_DIR; };
+		71006A722B856A810076C0F8 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		71142AAC2C224E230058A3C0 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		71142AAD2C224E230058A3C0 /* UI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UI.hpp; sourceTree = "<group>"; };
+		71142AAE2C224E230058A3C0 /* UI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI.cpp; sourceTree = "<group>"; };
+		713837C82B90116C000C6E03 /* PhaseAudio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhaseAudio.mm; sourceTree = "<group>"; };
+		713837C92B90116C000C6E03 /* PhaseAudio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PhaseAudio.hpp; sourceTree = "<group>"; };
+		713837CB2B901705000C6E03 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/AVFAudio.framework; sourceTree = DEVELOPER_DIR; };
+		713837CD2B90170A000C6E03 /* PHASE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PHASE.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/PHASE.framework; sourceTree = DEVELOPER_DIR; };
+		714912AB2B5213380018D7B4 /* Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Controller.mm; sourceTree = "<group>"; };
+		714912AC2B5213380018D7B4 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		714912AE2B5215C80018D7B4 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		715419BB2B14EE9600CDEB54 /* ShaderPipelineBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderPipelineBuilder.cpp; sourceTree = "<group>"; };
+		715419BC2B14EE9600CDEB54 /* ShaderPipelineBuilder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShaderPipelineBuilder.hpp; sourceTree = "<group>"; };
+		716214EE2B6067E300BEFD4D /* Game.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = Game.entitlements; path = Common/Game.entitlements; sourceTree = "<group>"; };
+		71637C1829F0F4A1005FCCC5 /* GameApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameApplication.h; sourceTree = "<group>"; };
+		71637C1B29F0F4A1005FCCC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71637C1F29F0F4A1005FCCC5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71637C2029F0F4A1005FCCC5 /* GameApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameApplication.m; sourceTree = "<group>"; };
+		71637C9629F0F4A1005FCCC5 /* MathUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MathUtils.hpp; sourceTree = "<group>"; };
+		71637C9729F0F4A1005FCCC5 /* MeshUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshUtils.cpp; sourceTree = "<group>"; };
+		71637C9829F0F4A1005FCCC5 /* GameCoordinator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameCoordinator.cpp; sourceTree = "<group>"; };
+		71637C9A29F0F4A1005FCCC5 /* GameCoordinator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameCoordinator.hpp; sourceTree = "<group>"; };
+		71637C9C29F0F4A1005FCCC5 /* MathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtils.cpp; sourceTree = "<group>"; };
+		71637C9E29F0F4A1005FCCC5 /* MeshUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MeshUtils.hpp; sourceTree = "<group>"; };
+		71637CCE29F0F727005FCCC5 /* GameCoordinatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCoordinatorController.h; sourceTree = "<group>"; };
+		71637CCF29F0F727005FCCC5 /* GameCoordinatorController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameCoordinatorController.mm; sourceTree = "<group>"; };
+		71637ED22B14DAA7003D2116 /* GameApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameApplication.h; sourceTree = "<group>"; };
+		71637ED32B14DAA7003D2116 /* GameApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameApplication.m; sourceTree = "<group>"; };
+		71637ED82B14DAA7003D2116 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		71637ED92B14DAA7003D2116 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		71637EDE2B14DAA8003D2116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71637EE32B14DAA8003D2116 /* iOSInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iOSInfo.plist; sourceTree = "<group>"; };
+		71637EE42B14DAA8003D2116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71637EEF2B14E06A003D2116 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		71637EF12B14E06F003D2116 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
+		71637EF32B14E075003D2116 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		71637EF52B14E07A003D2116 /* MetalFX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalFX.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/MetalFX.framework; sourceTree = DEVELOPER_DIR; };
+		71721B842BC261F700B8D21A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = PrecompiledAssets/Icon.png; sourceTree = "<group>"; };
+		71798B4529F1F5CA00082E4A /* BumpAllocator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BumpAllocator.hpp; sourceTree = "<group>"; };
+		71798B4629F1F5CA00082E4A /* BumpAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BumpAllocator.cpp; sourceTree = "<group>"; };
+		718CF8942977819C0074FAD6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		718CF896297781A10074FAD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		718CF898297781A80074FAD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7192E1A52B80619A00846206 /* sprite_instanced.hlsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sprite_instanced.hlsl; sourceTree = "<group>"; };
+		7192E1A62B80619A00846206 /* present.hlsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = present.hlsl; sourceTree = "<group>"; };
+		7192E1AB2B8064EB00846206 /* sprite_instanced_fs.dxil */ = {isa = PBXFileReference; lastKnownFileType = file; name = sprite_instanced_fs.dxil; path = Cache/sprite_instanced_fs.dxil; sourceTree = "<group>"; };
+		7192E1AC2B8064EB00846206 /* present_vs.dxil */ = {isa = PBXFileReference; lastKnownFileType = file; name = present_vs.dxil; path = Cache/present_vs.dxil; sourceTree = "<group>"; };
+		7192E1AD2B8064EB00846206 /* sprite_instanced_vs.dxil */ = {isa = PBXFileReference; lastKnownFileType = file; name = sprite_instanced_vs.dxil; path = Cache/sprite_instanced_vs.dxil; sourceTree = "<group>"; };
+		7192E1AE2B8064EB00846206 /* present_fs.dxil */ = {isa = PBXFileReference; lastKnownFileType = file; name = present_fs.dxil; path = Cache/present_fs.dxil; sourceTree = "<group>"; };
+		719315E22B7D7AC20061F4C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		719315E92B7D84230061F4C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		719B4D212BC5EC1500506D71 /* MetalFX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalFX.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/MetalFX.framework; sourceTree = DEVELOPER_DIR; };
+		719B4D242BC6035300506D71 /* NonCopyable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonCopyable.h; sourceTree = "<group>"; };
+		719FDBD029805DEB00C2D9D2 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		71ACEB222B730765003D72D1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71B298D22B68810E00944938 /* sprite_instanced_vs.metallib */ = {isa = PBXFileReference; lastKnownFileType = "archive.metal-library"; name = sprite_instanced_vs.metallib; path = PrecompiledAssets/sprite_instanced_vs.metallib; sourceTree = "<group>"; };
+		71B298D32B68810E00944938 /* present_fs.metallib */ = {isa = PBXFileReference; lastKnownFileType = "archive.metal-library"; name = present_fs.metallib; path = PrecompiledAssets/present_fs.metallib; sourceTree = "<group>"; };
+		71B298D42B68810E00944938 /* explosion0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explosion0.png; path = PrecompiledAssets/explosion0.png; sourceTree = "<group>"; };
+		71B298D62B68810E00944938 /* enemy0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy0.png; path = PrecompiledAssets/enemy0.png; sourceTree = "<group>"; };
+		71B298D72B68810E00944938 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = PrecompiledAssets/player.png; sourceTree = "<group>"; };
+		71B298D82B68810E00944938 /* present_vs.metallib */ = {isa = PBXFileReference; lastKnownFileType = "archive.metal-library"; name = present_vs.metallib; path = PrecompiledAssets/present_vs.metallib; sourceTree = "<group>"; };
+		71B298D92B68810E00944938 /* sprite_instanced_fs.metallib */ = {isa = PBXFileReference; lastKnownFileType = "archive.metal-library"; name = sprite_instanced_fs.metallib; path = PrecompiledAssets/sprite_instanced_fs.metallib; sourceTree = "<group>"; };
+		71B298DA2B68810E00944938 /* bullet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet0.png; path = PrecompiledAssets/bullet0.png; sourceTree = "<group>"; };
+		71B6FCD52B388FF0007BAD8F /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		71B6FCD62B388FF0007BAD8F /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		71B6FCD82B38B656007BAD8F /* TextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureLoader.h; sourceTree = "<group>"; };
+		71B6FCD92B38B656007BAD8F /* TextureLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TextureLoader.mm; sourceTree = "<group>"; };
+		71C5A8072BD3187300C7B760 /* GameCollisions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameCollisions.cpp; sourceTree = "<group>"; };
+		71CCC3EA2C06A5B800E6CCEE /* CloudSaveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudSaveManager.h; sourceTree = "<group>"; };
+		71CCC3EB2C06A5B800E6CCEE /* CloudSaveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudSaveManager.m; sourceTree = "<group>"; };
+		71CCC3EC2C06A5B800E6CCEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71CCC3EE2C079A5B00E6CCEE /* CloudSaves.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudSaves.entitlements; sourceTree = "<group>"; };
+		71CCC4282C079B5800E6CCEE /* GameProject+CloudSaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameProject+CloudSaves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D3745D2B7D88B100AE6EB8 /* GameRendering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameRendering.cpp; sourceTree = "<group>"; };
+		71D374612B7EA93B00AE6EB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71D374632B7EA94700AE6EB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71D374652B7EA94C00AE6EB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71D374672B7EA95300AE6EB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71D374692B7EA95900AE6EB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71D3746B2B7EA95F00AE6EB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71D374712B7EABEF00AE6EB8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71DAB83A2BEB04CB00217D26 /* enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy1.png; path = PrecompiledAssets/enemy1.png; sourceTree = "<group>"; };
+		71DAB83B2BEB04CB00217D26 /* enemy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy2.png; path = PrecompiledAssets/enemy2.png; sourceTree = "<group>"; };
+		71DAB83E2BEBD8A800217D26 /* laser2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = laser2.mp3; path = PrecompiledAssets/laser2.mp3; sourceTree = "<group>"; };
+		71DAB8402BEBE29B00217D26 /* impact2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = impact2.mp3; path = PrecompiledAssets/impact2.mp3; sourceTree = "<group>"; };
+		71DAB8422BEBE35100217D26 /* failure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = failure.mp3; path = PrecompiledAssets/failure.mp3; sourceTree = "<group>"; };
+		71DAB8432BEBE35100217D26 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = success.mp3; path = PrecompiledAssets/success.mp3; sourceTree = "<group>"; };
+		71DAB8462BEC2A9500217D26 /* explosion1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explosion1.png; path = PrecompiledAssets/explosion1.png; sourceTree = "<group>"; };
+		71FA28252B9146C800E5A608 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = PrecompiledAssets/background.png; sourceTree = "<group>"; };
+		71FA28272B915E0B00E5A608 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		71FD78F22BA29E1B00BD9CAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71FF3B5D2B2A6FA8004CC3DD /* macOSInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = macOSInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504B95772955FD5500B35359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719B4D222BC5EC1500506D71 /* MetalFX.framework in Frameworks */,
+				71FA28282B915E0B00E5A608 /* CoreMotion.framework in Frameworks */,
+				713837CE2B90170A000C6E03 /* PHASE.framework in Frameworks */,
+				713837CC2B901705000C6E03 /* AVFAudio.framework in Frameworks */,
+				71006A732B856A810076C0F8 /* GameController.framework in Frameworks */,
+				71006A712B856A740076C0F8 /* CoreHaptics.framework in Frameworks */,
+				719FDBD129805DEB00C2D9D2 /* MetalKit.framework in Frameworks */,
+				718CF899297781A80074FAD6 /* Foundation.framework in Frameworks */,
+				718CF897297781A10074FAD6 /* QuartzCore.framework in Frameworks */,
+				718CF8952977819C0074FAD6 /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CCC4062C079B5800E6CCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CCC4072C079B5800E6CCEE /* MetalFX.framework in Frameworks */,
+				71CCC4082C079B5800E6CCEE /* CoreMotion.framework in Frameworks */,
+				71CCC4092C079B5800E6CCEE /* PHASE.framework in Frameworks */,
+				71CCC40A2C079B5800E6CCEE /* AVFAudio.framework in Frameworks */,
+				71CCC40B2C079B5800E6CCEE /* GameController.framework in Frameworks */,
+				71CCC40C2C079B5800E6CCEE /* CoreHaptics.framework in Frameworks */,
+				71CCC40D2C079B5800E6CCEE /* MetalKit.framework in Frameworks */,
+				71CCC40E2C079B5800E6CCEE /* Foundation.framework in Frameworks */,
+				71CCC40F2C079B5800E6CCEE /* QuartzCore.framework in Frameworks */,
+				71CCC4102C079B5800E6CCEE /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504B95712955FD5500B35359 = {
+			isa = PBXGroup;
+			children = (
+				71D374712B7EABEF00AE6EB8 /* README.md */,
+				71FD78F12BA29DC300BD9CAC /* 00 - ProjectConfiguration */,
+				71637C1529F0F4A1005FCCC5 /* 01 - AppLifecycle */,
+				71ACEB192B730640003D72D1 /* 02 - GameInput */,
+				71ACEB1A2B73070C003D72D1 /* 03 - Audio */,
+				71ACEB212B730748003D72D1 /* 04 - Physics */,
+				71ACEB262B730777003D72D1 /* 05 - Haptics */,
+				71ACEB292B73086A003D72D1 /* 06 - ShaderConversion */,
+				71ACEB272B730788003D72D1 /* 07 - ShaderLoading */,
+				71ACEB282B7307CC003D72D1 /* 08 - MetalRendering */,
+				71ACEB2A2B73089E003D72D1 /* 09 - GameCenter */,
+				71ACEB2B2B7308B2003D72D1 /* 10 - GameExample */,
+				71CCC3E92C06A58700E6CCEE /* 11 - CloudSaves */,
+				7192E1AA2B80645100846206 /* Cache */,
+				71B298D12B6880FB00944938 /* PrecompiledAssets */,
+				504B957B2955FD5500B35359 /* Products */,
+				718CF88F29777FE90074FAD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		504B957B2955FD5500B35359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504B957A2955FD5500B35359 /* GameProject.app */,
+				71CCC4282C079B5800E6CCEE /* GameProject+CloudSaves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71637C1529F0F4A1005FCCC5 /* 01 - AppLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				71D374612B7EA93B00AE6EB8 /* README.md */,
+				71637EE92B14DDA6003D2116 /* Common */,
+				71637ED12B14DAA7003D2116 /* iOS */,
+				71637C1629F0F4A1005FCCC5 /* macOS */,
+			);
+			path = "01 - AppLifecycle";
+			sourceTree = "<group>";
+		};
+		71637C1629F0F4A1005FCCC5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				71FF3B5D2B2A6FA8004CC3DD /* macOSInfo.plist */,
+				71637C1B29F0F4A1005FCCC5 /* Assets.xcassets */,
+				71637C1829F0F4A1005FCCC5 /* GameApplication.h */,
+				71637C2029F0F4A1005FCCC5 /* GameApplication.m */,
+				71637C1F29F0F4A1005FCCC5 /* main.m */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		71637ED12B14DAA7003D2116 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				71637ED22B14DAA7003D2116 /* GameApplication.h */,
+				71637ED32B14DAA7003D2116 /* GameApplication.m */,
+				71637ED82B14DAA7003D2116 /* GameView.h */,
+				71637ED92B14DAA7003D2116 /* GameView.m */,
+				71637EDE2B14DAA8003D2116 /* Assets.xcassets */,
+				71637EE32B14DAA8003D2116 /* iOSInfo.plist */,
+				71637EE42B14DAA8003D2116 /* main.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		71637EE92B14DDA6003D2116 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				71637CCE29F0F727005FCCC5 /* GameCoordinatorController.h */,
+				71637CCF29F0F727005FCCC5 /* GameCoordinatorController.mm */,
+				716214EE2B6067E300BEFD4D /* Game.entitlements */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		718CF88F29777FE90074FAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719B4D212BC5EC1500506D71 /* MetalFX.framework */,
+				71FA28272B915E0B00E5A608 /* CoreMotion.framework */,
+				713837CD2B90170A000C6E03 /* PHASE.framework */,
+				713837CB2B901705000C6E03 /* AVFAudio.framework */,
+				71006A722B856A810076C0F8 /* GameController.framework */,
+				71006A702B856A740076C0F8 /* CoreHaptics.framework */,
+				714912AE2B5215C80018D7B4 /* GameController.framework */,
+				71637EF52B14E07A003D2116 /* MetalFX.framework */,
+				71637EF32B14E075003D2116 /* QuartzCore.framework */,
+				71637EF12B14E06F003D2116 /* MetalKit.framework */,
+				71637EEF2B14E06A003D2116 /* Metal.framework */,
+				719FDBD029805DEB00C2D9D2 /* MetalKit.framework */,
+				718CF898297781A80074FAD6 /* Foundation.framework */,
+				718CF896297781A10074FAD6 /* QuartzCore.framework */,
+				718CF8942977819C0074FAD6 /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7192E1AA2B80645100846206 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				7192E1AE2B8064EB00846206 /* present_fs.dxil */,
+				7192E1AC2B8064EB00846206 /* present_vs.dxil */,
+				7192E1AB2B8064EB00846206 /* sprite_instanced_fs.dxil */,
+				7192E1AD2B8064EB00846206 /* sprite_instanced_vs.dxil */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		71ACEB192B730640003D72D1 /* 02 - GameInput */ = {
+			isa = PBXGroup;
+			children = (
+				719315E22B7D7AC20061F4C2 /* README.md */,
+				714912AC2B5213380018D7B4 /* Controller.h */,
+				714912AB2B5213380018D7B4 /* Controller.mm */,
+			);
+			path = "02 - GameInput";
+			sourceTree = "<group>";
+		};
+		71ACEB1A2B73070C003D72D1 /* 03 - Audio */ = {
+			isa = PBXGroup;
+			children = (
+				71006A6B2B84085B0076C0F8 /* README.md */,
+				713837C92B90116C000C6E03 /* PhaseAudio.hpp */,
+				713837C82B90116C000C6E03 /* PhaseAudio.mm */,
+			);
+			path = "03 - Audio";
+			sourceTree = "<group>";
+		};
+		71ACEB212B730748003D72D1 /* 04 - Physics */ = {
+			isa = PBXGroup;
+			children = (
+				71ACEB222B730765003D72D1 /* README.md */,
+				71C5A8072BD3187300C7B760 /* GameCollisions.cpp */,
+			);
+			path = "04 - Physics";
+			sourceTree = "<group>";
+		};
+		71ACEB262B730777003D72D1 /* 05 - Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				71D374632B7EA94700AE6EB8 /* README.md */,
+				71006A6D2B856A5D0076C0F8 /* Haptics.h */,
+				71006A6E2B856A5D0076C0F8 /* Haptics.m */,
+			);
+			path = "05 - Haptics";
+			sourceTree = "<group>";
+		};
+		71ACEB272B730788003D72D1 /* 07 - ShaderLoading */ = {
+			isa = PBXGroup;
+			children = (
+				71D374672B7EA95300AE6EB8 /* README.md */,
+				715419BC2B14EE9600CDEB54 /* ShaderPipelineBuilder.hpp */,
+				715419BB2B14EE9600CDEB54 /* ShaderPipelineBuilder.cpp */,
+			);
+			path = "07 - ShaderLoading";
+			sourceTree = "<group>";
+		};
+		71ACEB282B7307CC003D72D1 /* 08 - MetalRendering */ = {
+			isa = PBXGroup;
+			children = (
+				719315E92B7D84230061F4C2 /* README.md */,
+				71798B4529F1F5CA00082E4A /* BumpAllocator.hpp */,
+				71798B4629F1F5CA00082E4A /* BumpAllocator.cpp */,
+				71D3745D2B7D88B100AE6EB8 /* GameRendering.cpp */,
+			);
+			path = "08 - MetalRendering";
+			sourceTree = "<group>";
+		};
+		71ACEB292B73086A003D72D1 /* 06 - ShaderConversion */ = {
+			isa = PBXGroup;
+			children = (
+				71D374652B7EA94C00AE6EB8 /* README.md */,
+				7192E1A62B80619A00846206 /* present.hlsl */,
+				7192E1A52B80619A00846206 /* sprite_instanced.hlsl */,
+			);
+			path = "06 - ShaderConversion";
+			sourceTree = "<group>";
+		};
+		71ACEB2A2B73089E003D72D1 /* 09 - GameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				71D374692B7EA95900AE6EB8 /* README.md */,
+			);
+			path = "09 - GameCenter";
+			sourceTree = "<group>";
+		};
+		71ACEB2B2B7308B2003D72D1 /* 10 - GameExample */ = {
+			isa = PBXGroup;
+			children = (
+				71D3746B2B7EA95F00AE6EB8 /* README.md */,
+				71142AAC2C224E230058A3C0 /* Config.h */,
+				71142AAD2C224E230058A3C0 /* UI.hpp */,
+				71142AAE2C224E230058A3C0 /* UI.cpp */,
+				719B4D242BC6035300506D71 /* NonCopyable.h */,
+				71B6FCD82B38B656007BAD8F /* TextureLoader.h */,
+				71B6FCD92B38B656007BAD8F /* TextureLoader.mm */,
+				71B6FCD62B388FF0007BAD8F /* Game.hpp */,
+				71B6FCD52B388FF0007BAD8F /* Game.cpp */,
+				71637C9A29F0F4A1005FCCC5 /* GameCoordinator.hpp */,
+				71637C9829F0F4A1005FCCC5 /* GameCoordinator.cpp */,
+				71637C9629F0F4A1005FCCC5 /* MathUtils.hpp */,
+				71637C9C29F0F4A1005FCCC5 /* MathUtils.cpp */,
+				71637C9E29F0F4A1005FCCC5 /* MeshUtils.hpp */,
+				71637C9729F0F4A1005FCCC5 /* MeshUtils.cpp */,
+			);
+			path = "10 - GameExample";
+			sourceTree = "<group>";
+		};
+		71B298D12B6880FB00944938 /* PrecompiledAssets */ = {
+			isa = PBXGroup;
+			children = (
+				71DAB8462BEC2A9500217D26 /* explosion1.png */,
+				71DAB8422BEBE35100217D26 /* failure.mp3 */,
+				71DAB8432BEBE35100217D26 /* success.mp3 */,
+				71DAB8402BEBE29B00217D26 /* impact2.mp3 */,
+				71DAB83E2BEBD8A800217D26 /* laser2.mp3 */,
+				71DAB83A2BEB04CB00217D26 /* enemy1.png */,
+				71DAB83B2BEB04CB00217D26 /* enemy2.png */,
+				71721B842BC261F700B8D21A /* Icon.png */,
+				71FA28252B9146C800E5A608 /* background.png */,
+				71B298DA2B68810E00944938 /* bullet0.png */,
+				71B298D62B68810E00944938 /* enemy0.png */,
+				71B298D42B68810E00944938 /* explosion0.png */,
+				71B298D72B68810E00944938 /* player.png */,
+				71B298D32B68810E00944938 /* present_fs.metallib */,
+				71B298D82B68810E00944938 /* present_vs.metallib */,
+				71B298D92B68810E00944938 /* sprite_instanced_fs.metallib */,
+				71B298D22B68810E00944938 /* sprite_instanced_vs.metallib */,
+			);
+			name = PrecompiledAssets;
+			sourceTree = "<group>";
+		};
+		71CCC3E92C06A58700E6CCEE /* 11 - CloudSaves */ = {
+			isa = PBXGroup;
+			children = (
+				71CCC3EC2C06A5B800E6CCEE /* README.md */,
+				71CCC3EA2C06A5B800E6CCEE /* CloudSaveManager.h */,
+				71CCC3EB2C06A5B800E6CCEE /* CloudSaveManager.m */,
+				71CCC3EE2C079A5B00E6CCEE /* CloudSaves.entitlements */,
+			);
+			path = "11 - CloudSaves";
+			sourceTree = "<group>";
+		};
+		71FD78F12BA29DC300BD9CAC /* 00 - ProjectConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				71FD78F22BA29E1B00BD9CAC /* README.md */,
+			);
+			path = "00 - ProjectConfiguration";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504B95792955FD5500B35359 /* GameProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504B95932955FD5700B35359 /* Build configuration list for PBXNativeTarget "GameProject" */;
+			buildPhases = (
+				7192E1A42B8060B500846206 /* Compile HLSL Shaders to DXIL */,
+				7192E1A92B80629A00846206 /* Convert DXIL to metallibs */,
+				504B95762955FD5500B35359 /* Sources */,
+				504B95772955FD5500B35359 /* Frameworks */,
+				504B95782955FD5500B35359 /* Resources */,
+				710D0B3629BF9D9000A2078B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameProject;
+			productName = HighLevelShadingLanguage;
+			productReference = 504B957A2955FD5500B35359 /* GameProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71CCC3EF2C079B5800E6CCEE /* GameProject+CloudSaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CCC4252C079B5800E6CCEE /* Build configuration list for PBXNativeTarget "GameProject+CloudSaves" */;
+			buildPhases = (
+				71CCC3F02C079B5800E6CCEE /* Compile HLSL Shaders to DXIL */,
+				71CCC3F12C079B5800E6CCEE /* Convert DXIL to metallibs */,
+				71CCC3F22C079B5800E6CCEE /* Sources */,
+				71CCC4062C079B5800E6CCEE /* Frameworks */,
+				71CCC4112C079B5800E6CCEE /* Resources */,
+				71CCC4242C079B5800E6CCEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GameProject+CloudSaves";
+			productName = HighLevelShadingLanguage;
+			productReference = 71CCC4282C079B5800E6CCEE /* GameProject+CloudSaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504B95722955FD5500B35359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					504B95792955FD5500B35359 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 504B95752955FD5500B35359 /* Build configuration list for PBXProject "GameProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504B95712955FD5500B35359;
+			productRefGroup = 504B957B2955FD5500B35359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504B95792955FD5500B35359 /* GameProject */,
+				71CCC3EF2C079B5800E6CCEE /* GameProject+CloudSaves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504B95782955FD5500B35359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DAB8472BEC2A9500217D26 /* explosion1.png in Resources */,
+				71FA28262B9146D200E5A608 /* background.png in Resources */,
+				71DAB83F2BEBD8A800217D26 /* laser2.mp3 in Resources */,
+				71DAB8442BEBE35100217D26 /* failure.mp3 in Resources */,
+				71DAB8452BEBE35100217D26 /* success.mp3 in Resources */,
+				71B298E12B68810E00944938 /* present_vs.metallib in Resources */,
+				71B298DC2B68810E00944938 /* present_fs.metallib in Resources */,
+				71B298E22B68810E00944938 /* sprite_instanced_fs.metallib in Resources */,
+				71B298DB2B68810E00944938 /* sprite_instanced_vs.metallib in Resources */,
+				71637CA429F0F4A1005FCCC5 /* Assets.xcassets in Resources */,
+				71721B852BC261F700B8D21A /* Icon.png in Resources */,
+				71B298DF2B68810E00944938 /* enemy0.png in Resources */,
+				71B298E02B68810E00944938 /* player.png in Resources */,
+				71B298DD2B68810E00944938 /* explosion0.png in Resources */,
+				71B298E32B68810E00944938 /* bullet0.png in Resources */,
+				71DAB83C2BEB04CB00217D26 /* enemy2.png in Resources */,
+				71DAB83D2BEB04CB00217D26 /* enemy1.png in Resources */,
+				71DAB8412BEBE29B00217D26 /* impact2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CCC4112C079B5800E6CCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CCC4122C079B5800E6CCEE /* explosion1.png in Resources */,
+				71CCC4132C079B5800E6CCEE /* background.png in Resources */,
+				71CCC4142C079B5800E6CCEE /* laser2.mp3 in Resources */,
+				71CCC4152C079B5800E6CCEE /* failure.mp3 in Resources */,
+				71CCC4162C079B5800E6CCEE /* success.mp3 in Resources */,
+				71CCC4172C079B5800E6CCEE /* present_vs.metallib in Resources */,
+				71CCC4182C079B5800E6CCEE /* present_fs.metallib in Resources */,
+				71CCC4192C079B5800E6CCEE /* sprite_instanced_fs.metallib in Resources */,
+				71CCC41A2C079B5800E6CCEE /* sprite_instanced_vs.metallib in Resources */,
+				71CCC41B2C079B5800E6CCEE /* Assets.xcassets in Resources */,
+				71CCC41C2C079B5800E6CCEE /* Icon.png in Resources */,
+				71CCC41D2C079B5800E6CCEE /* enemy0.png in Resources */,
+				71CCC41E2C079B5800E6CCEE /* player.png in Resources */,
+				71CCC41F2C079B5800E6CCEE /* explosion0.png in Resources */,
+				71CCC4202C079B5800E6CCEE /* bullet0.png in Resources */,
+				71CCC4212C079B5800E6CCEE /* enemy2.png in Resources */,
+				71CCC4222C079B5800E6CCEE /* enemy1.png in Resources */,
+				71CCC4232C079B5800E6CCEE /* impact2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7192E1A42B8060B500846206 /* Compile HLSL Shaders to DXIL */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/06 - ShaderConversion/present.hlsl",
+				"$(SRCROOT)/06 - ShaderConversion/sprite_instanced.hlsl",
+			);
+			name = "Compile HLSL Shaders to DXIL";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/Cache/present_vs.dxil",
+				"$(SRCROOT)/Cache/present_fs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_vs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_fs.dxil",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DXC=/usr/local/bin/dxc-3.7\nif [ -f \"${DXC}\" ]; then\n    echo \"Recompiling HLSL shaders\"\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_0}\" -Zi -Qembed_debug -T vs_6_0 -E MainVS -Fo \"${SCRIPT_OUTPUT_FILE_0}\" && \\\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_0}\" -Zi -Qembed_debug -T ps_6_0 -E MainFS -Fo \"${SCRIPT_OUTPUT_FILE_1}\" && \\\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_1}\" -Zi -Qembed_debug -T vs_6_0 -E MainVS -Fo \"${SCRIPT_OUTPUT_FILE_2}\" && \\\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_1}\" -Zi -Qembed_debug -T ps_6_0 -E MainFS -Fo \"${SCRIPT_OUTPUT_FILE_3}\"\nelse\n    echo \"Reusing cached DXIL shaders\"\nfi \n";
+		};
+		7192E1A92B80629A00846206 /* Convert DXIL to metallibs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Cache/present_vs.dxil",
+				"$(SRCROOT)/Cache/present_fs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_vs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_fs.dxil",
+			);
+			name = "Convert DXIL to metallibs";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/PrecompiledAssets/present_vs.metallib",
+				"$(SRCROOT)/PrecompiledAssets/present_fs.metallib",
+				"$(SRCROOT)/PrecompiledAssets/sprite_instanced_vs.metallib",
+				"$(SRCROOT)/PrecompiledAssets/sprite_instanced_fs.metallib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "MSC=/usr/local/bin/metal-shaderconverter\nif [ -f \"${MSC}\" ]; then\n\n    MSC_VERSION=$(metal-shaderconverter --version | grep -oE 'metal-irconverter version: [0-9]+' | awk '{print $3}')\n    \n    if [ \"$MSC_VERSION\" -ge 3 ]; then\n        COMPAT=\"--forceTextureArray\"\n    fi\n    \n    echo \"Converting DXIL to Metal libraries\"\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_0}\" --deployment-os=macOS --minimum-os-build-version=14 ${COMPAT} -o \"${SCRIPT_OUTPUT_FILE_0}\" && \\\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_1}\" --deployment-os=macOS --minimum-os-build-version=14 ${COMPAT} -o \"${SCRIPT_OUTPUT_FILE_1}\" && \\\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_2}\" --deployment-os=macOS --minimum-os-build-version=14 ${COMPAT} -o \"${SCRIPT_OUTPUT_FILE_2}\" && \\\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_3}\" --deployment-os=macOS --minimum-os-build-version=14 ${COMPAT} -o \"${SCRIPT_OUTPUT_FILE_3}\"\nelse\n    echo \"Please install Metal Shader Converter from https://developer.apple.com/downloads/\"\n    exit -1\nfi\n";
+		};
+		71CCC3F02C079B5800E6CCEE /* Compile HLSL Shaders to DXIL */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/06 - ShaderConversion/present.hlsl",
+				"$(SRCROOT)/06 - ShaderConversion/sprite_instanced.hlsl",
+			);
+			name = "Compile HLSL Shaders to DXIL";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/Cache/present_vs.dxil",
+				"$(SRCROOT)/Cache/present_fs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_vs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_fs.dxil",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DXC=/usr/local/bin/dxc-3.7\nif [ -f \"${DXC}\" ]; then\n    echo \"Recompiling HLSL shaders\"\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_0}\" -Zi -Qembed_debug -T vs_6_0 -E MainVS -Fo \"${SCRIPT_OUTPUT_FILE_0}\" && \\\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_0}\" -Zi -Qembed_debug -T ps_6_0 -E MainFS -Fo \"${SCRIPT_OUTPUT_FILE_1}\" && \\\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_1}\" -Zi -Qembed_debug -T vs_6_0 -E MainVS -Fo \"${SCRIPT_OUTPUT_FILE_2}\" && \\\n    \"${DXC}\" \"${SCRIPT_INPUT_FILE_1}\" -Zi -Qembed_debug -T ps_6_0 -E MainFS -Fo \"${SCRIPT_OUTPUT_FILE_3}\"\nelse\n    echo \"Reusing cached DXIL shaders\"\nfi \n";
+		};
+		71CCC3F12C079B5800E6CCEE /* Convert DXIL to metallibs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Cache/present_vs.dxil",
+				"$(SRCROOT)/Cache/present_fs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_vs.dxil",
+				"$(SRCROOT)/Cache/sprite_instanced_fs.dxil",
+			);
+			name = "Convert DXIL to metallibs";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/PrecompiledAssets/present_vs.metallib",
+				"$(SRCROOT)/PrecompiledAssets/present_fs.metallib",
+				"$(SRCROOT)/PrecompiledAssets/sprite_instanced_vs.metallib",
+				"$(SRCROOT)/PrecompiledAssets/sprite_instanced_fs.metallib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "MSC=/usr/local/bin/metal-shaderconverter\nif [ -f \"${MSC}\" ]; then\n    echo \"Converting DXIL to Metal libraries\"\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_0}\" --deployment-os=macOS --minimum-os-build-version=14 -o \"${SCRIPT_OUTPUT_FILE_0}\" && \\\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_1}\" --deployment-os=macOS --minimum-os-build-version=14 -o \"${SCRIPT_OUTPUT_FILE_1}\" && \\\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_2}\" --deployment-os=macOS --minimum-os-build-version=14 -o \"${SCRIPT_OUTPUT_FILE_2}\" && \\\n    \"${MSC}\" \"${SCRIPT_INPUT_FILE_3}\" --deployment-os=macOS --minimum-os-build-version=14 -o \"${SCRIPT_OUTPUT_FILE_3}\"\nelse\n    echo \"Please install Metal Shader Converter from https://developer.apple.com/downloads/\"\n    exit -1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504B95762955FD5500B35359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71637CAC29F0F4A1005FCCC5 /* MeshUtils.cpp in Sources */,
+				71637CAF29F0F4A1005FCCC5 /* MathUtils.cpp in Sources */,
+				71B6FCD72B388FF0007BAD8F /* Game.cpp in Sources */,
+				71006A6F2B856A5D0076C0F8 /* Haptics.m in Sources */,
+				71637CD029F0F727005FCCC5 /* GameCoordinatorController.mm in Sources */,
+				71142AB02C224E230058A3C0 /* UI.cpp in Sources */,
+				713837CA2B90116C000C6E03 /* PhaseAudio.mm in Sources */,
+				71637CAD29F0F4A1005FCCC5 /* GameCoordinator.cpp in Sources */,
+				71798B4729F1F5CA00082E4A /* BumpAllocator.cpp in Sources */,
+				71D3745E2B7D88B100AE6EB8 /* GameRendering.cpp in Sources */,
+				71CCC3ED2C06A64500E6CCEE /* CloudSaveManager.m in Sources */,
+				71B6FCDA2B38B656007BAD8F /* TextureLoader.mm in Sources */,
+				714912AD2B5213380018D7B4 /* Controller.mm in Sources */,
+				717EFE8F2B3240650005C310 /* ShaderPipelineBuilder.cpp in Sources */,
+				71C5A8082BD3187300C7B760 /* GameCollisions.cpp in Sources */,
+				0DD3510F2BB4E33B008CEA71 /* GameApplication.m in Sources */,
+				715F250A2B1A58E900E2CD56 /* main.m in Sources */,
+				0DD351102BB4F16E008CEA71 /* GameView.m in Sources */,
+				71637CA729F0F4A1005FCCC5 /* GameApplication.m in Sources */,
+				71637CA629F0F4A1005FCCC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CCC3F22C079B5800E6CCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CCC3F32C079B5800E6CCEE /* MeshUtils.cpp in Sources */,
+				71CCC3F42C079B5800E6CCEE /* MathUtils.cpp in Sources */,
+				71CCC3F52C079B5800E6CCEE /* Game.cpp in Sources */,
+				71CCC3F62C079B5800E6CCEE /* Haptics.m in Sources */,
+				71CCC3F72C079B5800E6CCEE /* GameCoordinatorController.mm in Sources */,
+				71142AAF2C224E230058A3C0 /* UI.cpp in Sources */,
+				71CCC3F82C079B5800E6CCEE /* PhaseAudio.mm in Sources */,
+				71CCC3F92C079B5800E6CCEE /* GameCoordinator.cpp in Sources */,
+				71CCC3FA2C079B5800E6CCEE /* BumpAllocator.cpp in Sources */,
+				71CCC3FB2C079B5800E6CCEE /* GameRendering.cpp in Sources */,
+				71CCC3FC2C079B5800E6CCEE /* CloudSaveManager.m in Sources */,
+				71CCC3FD2C079B5800E6CCEE /* TextureLoader.mm in Sources */,
+				71CCC3FE2C079B5800E6CCEE /* Controller.mm in Sources */,
+				71CCC3FF2C079B5800E6CCEE /* ShaderPipelineBuilder.cpp in Sources */,
+				71CCC4002C079B5800E6CCEE /* GameCollisions.cpp in Sources */,
+				71CCC4012C079B5800E6CCEE /* GameApplication.m in Sources */,
+				71CCC4022C079B5800E6CCEE /* main.m in Sources */,
+				71CCC4032C079B5800E6CCEE /* GameView.m in Sources */,
+				71CCC4042C079B5800E6CCEE /* GameApplication.m in Sources */,
+				71CCC4052C079B5800E6CCEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		504B95912955FD5700B35359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		504B95922955FD5700B35359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		504B95942955FD5700B35359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "01 - AppLifecycle/Common/Game.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XPSUQMMH5W;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../metal-cpp",
+					/usr/local/include/,
+				);
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "01 - AppLifecycle/iOS/iOSInfo.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "01 - AppLifecycle/macOS/macOSInfo.plist";
+				INFOPLIST_KEY_MetalCaptureEnabled = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "metal iphone-performance-gaming-tier";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Resources",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.metal.kickstarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504B95952955FD5700B35359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "01 - AppLifecycle/Common/Game.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XPSUQMMH5W;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../metal-cpp",
+					/usr/local/include/,
+				);
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "01 - AppLifecycle/iOS/iOSInfo.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "01 - AppLifecycle/macOS/macOSInfo.plist";
+				INFOPLIST_KEY_MetalCaptureEnabled = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "metal iphone-performance-gaming-tier";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Resources",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.metal.kickstarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71CCC4262C079B5800E6CCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "11 - CloudSaves/CloudSaves.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M68356Z98U;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/include/metal-cpp",
+					"$(PROJECT_DIR)/include",
+					/usr/local/include/,
+				);
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "01 - AppLifecycle/iOS/iOSInfo.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "01 - AppLifecycle/macOS/macOSInfo.plist";
+				INFOPLIST_KEY_MetalCaptureEnabled = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "metal iphone-performance-gaming-tier";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Resources",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14;
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DGP_SUPPORT_CLOUDSAVES=1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gptk2.metal.kickstarter.cloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71CCC4272C079B5800E6CCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "11 - CloudSaves/CloudSaves.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M68356Z98U;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/include/metal-cpp",
+					"$(PROJECT_DIR)/include",
+					/usr/local/include/,
+				);
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "01 - AppLifecycle/iOS/iOSInfo.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "01 - AppLifecycle/macOS/macOSInfo.plist";
+				INFOPLIST_KEY_MetalCaptureEnabled = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "metal iphone-performance-gaming-tier";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Resources",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14;
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DGP_SUPPORT_CLOUDSAVES=1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gptk2.metal.kickstarter.cloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504B95752955FD5500B35359 /* Build configuration list for PBXProject "GameProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504B95912955FD5700B35359 /* Debug */,
+				504B95922955FD5700B35359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504B95932955FD5700B35359 /* Build configuration list for PBXNativeTarget "GameProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504B95942955FD5700B35359 /* Debug */,
+				504B95952955FD5700B35359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CCC4252C079B5800E6CCEE /* Build configuration list for PBXNativeTarget "GameProject+CloudSaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CCC4262C079B5800E6CCEE /* Debug */,
+				71CCC4272C079B5800E6CCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504B95722955FD5500B35359 /* Project object */;
+}

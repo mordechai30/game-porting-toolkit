@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044AF17D2BEAE5F7000F0050 /* SyncException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AF17C2BEAE5F7000F0050 /* SyncException.swift */; };
+		045FD4BD2BE9601700A86E2B /* SyncSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FD4BC2BE9601700A86E2B /* SyncSheet.swift */; };
+		045FD4BF2BE9603300A86E2B /* SyncProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FD4BE2BE9603300A86E2B /* SyncProgress.swift */; };
+		04AE36DE2C0FF74600B47C68 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C4A2BE9393800CAA037 /* Config.swift */; };
+		04AE36E02C0FFC4C00B47C68 /* SampleGame.app in Resources */ = {isa = PBXBuildFile; fileRef = 040682E42B6B172B008D2270 /* SampleGame.app */; };
+		0D3B4C622BE9396200CAA037 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C4A2BE9393800CAA037 /* Config.swift */; };
+		0D3B4C632BE9396400CAA037 /* SampleGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C4C2BE9393800CAA037 /* SampleGameApp.swift */; };
+		0D3B4C652BE9396700CAA037 /* SaveGameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C542BE9393800CAA037 /* SaveGameRecord.swift */; };
+		0D3B4C662BE9396700CAA037 /* GameSaveModel+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C522BE9393800CAA037 /* GameSaveModel+File.swift */; };
+		0D3B4C672BE9396700CAA037 /* GameSaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C512BE9393800CAA037 /* GameSaveModel.swift */; };
+		0D3B4C682BE9396B00CAA037 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C562BE9393800CAA037 /* GameView.swift */; };
+		0D3B4C692BE9396B00CAA037 /* SaveGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C592BE9393800CAA037 /* SaveGameCell.swift */; };
+		0D3B4C6A2BE9396B00CAA037 /* SavePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C5A2BE9393800CAA037 /* SavePickerCell.swift */; };
+		0D3B4C6B2BE9396B00CAA037 /* SavePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C572BE9393800CAA037 /* SavePicker.swift */; };
+		0D3B4C6C2BE9396B00CAA037 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C5B2BE9393800CAA037 /* ContentView.swift */; };
+		0D3B4C6D2BE9396B00CAA037 /* SaveGameNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C582BE9393800CAA037 /* SaveGameNavigationLink.swift */; };
+		0D3B4C6E2BE9396E00CAA037 /* SaveGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C5D2BE9393800CAA037 /* SaveGame.swift */; };
+		0D3B4C6F2BE9396E00CAA037 /* GameChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C5E2BE9393800CAA037 /* GameChapter.swift */; };
+		0D3B4C702BE9396E00CAA037 /* SaveGame+Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B4C5F2BE9393800CAA037 /* SaveGame+Security.swift */; };
+		0D7F41182BDAF1F3003D4EEA /* CloudSaveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F41152BDAF1F3003D4EEA /* CloudSaveManager.m */; };
+		0D7F412F2BDB03A8003D4EEA /* CloudSaveTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F411E2BDAF201003D4EEA /* CloudSaveTestHelper.m */; };
+		0D7F41302BDB03AA003D4EEA /* CloudSaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F411B2BDAF201003D4EEA /* CloudSaveTests.m */; };
+		0DDDB8982BEC39360066C04D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDB8972BEC39360066C04D /* main.m */; };
+		0DDDB8992BEC394D0066C04D /* CloudSaveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F41152BDAF1F3003D4EEA /* CloudSaveManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AE36E12C0FFC4C00B47C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040682DC2B6B172B008D2270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040682E32B6B172B008D2270;
+			remoteInfo = SampleGame;
+		};
+		0DDDB89A2BEC46D80066C04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040682DC2B6B172B008D2270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDDB8872BEC391B0066C04D;
+			remoteInfo = CloudSaveTestsTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04DFE1BE2B9031320015C56A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		040682E42B6B172B008D2270 /* SampleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040682ED2B6B1731008D2270 /* GameCloudSave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameCloudSave.entitlements; sourceTree = "<group>"; };
+		044AF17C2BEAE5F7000F0050 /* SyncException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncException.swift; sourceTree = "<group>"; };
+		045FD4BC2BE9601700A86E2B /* SyncSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncSheet.swift; sourceTree = "<group>"; };
+		045FD4BE2BE9603300A86E2B /* SyncProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncProgress.swift; sourceTree = "<group>"; };
+		0D3B4C492BE9393800CAA037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D3B4C4A2BE9393800CAA037 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		0D3B4C4B2BE9393800CAA037 /* GameSampleInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GameSampleInfo.plist; sourceTree = "<group>"; };
+		0D3B4C4C2BE9393800CAA037 /* SampleGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGameApp.swift; sourceTree = "<group>"; };
+		0D3B4C512BE9393800CAA037 /* GameSaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSaveModel.swift; sourceTree = "<group>"; };
+		0D3B4C522BE9393800CAA037 /* GameSaveModel+File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSaveModel+File.swift"; sourceTree = "<group>"; };
+		0D3B4C542BE9393800CAA037 /* SaveGameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGameRecord.swift; sourceTree = "<group>"; };
+		0D3B4C562BE9393800CAA037 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		0D3B4C572BE9393800CAA037 /* SavePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePicker.swift; sourceTree = "<group>"; };
+		0D3B4C582BE9393800CAA037 /* SaveGameNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGameNavigationLink.swift; sourceTree = "<group>"; };
+		0D3B4C592BE9393800CAA037 /* SaveGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGameCell.swift; sourceTree = "<group>"; };
+		0D3B4C5A2BE9393800CAA037 /* SavePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePickerCell.swift; sourceTree = "<group>"; };
+		0D3B4C5B2BE9393800CAA037 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D3B4C5D2BE9393800CAA037 /* SaveGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveGame.swift; sourceTree = "<group>"; };
+		0D3B4C5E2BE9393800CAA037 /* GameChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameChapter.swift; sourceTree = "<group>"; };
+		0D3B4C5F2BE9393800CAA037 /* SaveGame+Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaveGame+Security.swift"; sourceTree = "<group>"; };
+		0D3B4C712BE9479A00CAA037 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0D7F41152BDAF1F3003D4EEA /* CloudSaveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudSaveManager.m; sourceTree = "<group>"; };
+		0D7F41172BDAF1F3003D4EEA /* CloudSaveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudSaveManager.h; sourceTree = "<group>"; };
+		0D7F411B2BDAF201003D4EEA /* CloudSaveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudSaveTests.m; sourceTree = "<group>"; };
+		0D7F411C2BDAF201003D4EEA /* CloudSaveTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudSaveTestHelper.h; sourceTree = "<group>"; };
+		0D7F411E2BDAF201003D4EEA /* CloudSaveTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudSaveTestHelper.m; sourceTree = "<group>"; };
+		0D7F41262BDAFED7003D4EEA /* CloudSaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudSaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDDB8882BEC391B0066C04D /* CloudSaveTestsTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSaveTestsTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDDB8972BEC39360066C04D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040682E12B6B172B008D2270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7F41232BDAFED7003D4EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDDB8852BEC391B0066C04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040682DB2B6B172B008D2270 = {
+			isa = PBXGroup;
+			children = (
+				0D3B4C712BE9479A00CAA037 /* README.md */,
+				040682ED2B6B1731008D2270 /* GameCloudSave.entitlements */,
+				0D3B4C472BE9393800CAA037 /* Game Sample */,
+				0D7F41132BDAF1F3003D4EEA /* Cloud Save */,
+				040682E52B6B172B008D2270 /* Products */,
+				0450E4912B8591EA00BF6965 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040682E52B6B172B008D2270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040682E42B6B172B008D2270 /* SampleGame.app */,
+				0D7F41262BDAFED7003D4EEA /* CloudSaveTests.xctest */,
+				0DDDB8882BEC391B0066C04D /* CloudSaveTestsTarget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0450E4912B8591EA00BF6965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		045FD4BB2BE95FF600A86E2B /* SaveGameCell */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B4C582BE9393800CAA037 /* SaveGameNavigationLink.swift */,
+				0D3B4C592BE9393800CAA037 /* SaveGameCell.swift */,
+			);
+			path = SaveGameCell;
+			sourceTree = "<group>";
+		};
+		045FD4C02BE9617100A86E2B /* SyncSheet */ = {
+			isa = PBXGroup;
+			children = (
+				045FD4BC2BE9601700A86E2B /* SyncSheet.swift */,
+				045FD4BE2BE9603300A86E2B /* SyncProgress.swift */,
+				0D3B4C572BE9393800CAA037 /* SavePicker.swift */,
+				0D3B4C5A2BE9393800CAA037 /* SavePickerCell.swift */,
+				044AF17C2BEAE5F7000F0050 /* SyncException.swift */,
+			);
+			path = SyncSheet;
+			sourceTree = "<group>";
+		};
+		0D3B4C472BE9393800CAA037 /* Game Sample */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B4C4A2BE9393800CAA037 /* Config.swift */,
+				0D3B4C4C2BE9393800CAA037 /* SampleGameApp.swift */,
+				0D3B4C4F2BE9393800CAA037 /* Model */,
+				0D3B4C552BE9393800CAA037 /* View */,
+				0D3B4C4B2BE9393800CAA037 /* GameSampleInfo.plist */,
+				0D3B4C492BE9393800CAA037 /* Assets.xcassets */,
+			);
+			path = "Game Sample";
+			sourceTree = "<group>";
+		};
+		0D3B4C4F2BE9393800CAA037 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B4C512BE9393800CAA037 /* GameSaveModel.swift */,
+				0D3B4C522BE9393800CAA037 /* GameSaveModel+File.swift */,
+				0D3B4C542BE9393800CAA037 /* SaveGameRecord.swift */,
+				0D3B4C5C2BE9393800CAA037 /* SaveGame */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D3B4C552BE9393800CAA037 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B4C5B2BE9393800CAA037 /* ContentView.swift */,
+				0D3B4C562BE9393800CAA037 /* GameView.swift */,
+				045FD4BB2BE95FF600A86E2B /* SaveGameCell */,
+				045FD4C02BE9617100A86E2B /* SyncSheet */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D3B4C5C2BE9393800CAA037 /* SaveGame */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B4C5D2BE9393800CAA037 /* SaveGame.swift */,
+				0D3B4C5E2BE9393800CAA037 /* GameChapter.swift */,
+				0D3B4C5F2BE9393800CAA037 /* SaveGame+Security.swift */,
+			);
+			path = SaveGame;
+			sourceTree = "<group>";
+		};
+		0D7F41132BDAF1F3003D4EEA /* Cloud Save */ = {
+			isa = PBXGroup;
+			children = (
+				0D7F41152BDAF1F3003D4EEA /* CloudSaveManager.m */,
+				0D7F41172BDAF1F3003D4EEA /* CloudSaveManager.h */,
+				0D7F411A2BDAF201003D4EEA /* Testing */,
+			);
+			path = "Cloud Save";
+			sourceTree = "<group>";
+		};
+		0D7F411A2BDAF201003D4EEA /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				0D7F411B2BDAF201003D4EEA /* CloudSaveTests.m */,
+				0D7F411E2BDAF201003D4EEA /* CloudSaveTestHelper.m */,
+				0D7F411C2BDAF201003D4EEA /* CloudSaveTestHelper.h */,
+				0DDDB8972BEC39360066C04D /* main.m */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040682E32B6B172B008D2270 /* SampleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040683092B6B1731008D2270 /* Build configuration list for PBXNativeTarget "SampleGame" */;
+			buildPhases = (
+				040682E02B6B172B008D2270 /* Sources */,
+				040682E12B6B172B008D2270 /* Frameworks */,
+				040682E22B6B172B008D2270 /* Resources */,
+				04DFE1BE2B9031320015C56A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleGame;
+			productName = "Game Cloud Save";
+			productReference = 040682E42B6B172B008D2270 /* SampleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D7F41252BDAFED7003D4EEA /* CloudSaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7F412C2BDAFED7003D4EEA /* Build configuration list for PBXNativeTarget "CloudSaveTests" */;
+			buildPhases = (
+				0D7F41222BDAFED7003D4EEA /* Sources */,
+				0D7F41232BDAFED7003D4EEA /* Frameworks */,
+				0D7F41242BDAFED7003D4EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDDB89B2BEC46D80066C04D /* PBXTargetDependency */,
+			);
+			name = CloudSaveTests;
+			productName = CloudSaveTests;
+			productReference = 0D7F41262BDAFED7003D4EEA /* CloudSaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DDDB8872BEC391B0066C04D /* CloudSaveTestsTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDDB8962BEC391D0066C04D /* Build configuration list for PBXNativeTarget "CloudSaveTestsTarget" */;
+			buildPhases = (
+				0DDDB8842BEC391B0066C04D /* Sources */,
+				0DDDB8852BEC391B0066C04D /* Frameworks */,
+				0DDDB8862BEC391B0066C04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AE36E22C0FFC4C00B47C68 /* PBXTargetDependency */,
+			);
+			name = CloudSaveTestsTarget;
+			productName = CloudSaveTestsTarget;
+			productReference = 0DDDB8882BEC391B0066C04D /* CloudSaveTestsTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040682DC2B6B172B008D2270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					040682E32B6B172B008D2270 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0D7F41252BDAFED7003D4EEA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0DDDB8872BEC391B0066C04D;
+					};
+					0DDDB8872BEC391B0066C04D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 040682DF2B6B172B008D2270 /* Build configuration list for PBXProject "Game Cloud Save" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040682DB2B6B172B008D2270;
+			productRefGroup = 040682E52B6B172B008D2270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040682E32B6B172B008D2270 /* SampleGame */,
+				0D7F41252BDAFED7003D4EEA /* CloudSaveTests */,
+				0DDDB8872BEC391B0066C04D /* CloudSaveTestsTarget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040682E22B6B172B008D2270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7F41242BDAFED7003D4EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDDB8862BEC391B0066C04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE36E02C0FFC4C00B47C68 /* SampleGame.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040682E02B6B172B008D2270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3B4C672BE9396700CAA037 /* GameSaveModel.swift in Sources */,
+				0D3B4C632BE9396400CAA037 /* SampleGameApp.swift in Sources */,
+				0D3B4C6A2BE9396B00CAA037 /* SavePickerCell.swift in Sources */,
+				045FD4BD2BE9601700A86E2B /* SyncSheet.swift in Sources */,
+				045FD4BF2BE9603300A86E2B /* SyncProgress.swift in Sources */,
+				0D7F41182BDAF1F3003D4EEA /* CloudSaveManager.m in Sources */,
+				0D3B4C682BE9396B00CAA037 /* GameView.swift in Sources */,
+				0D3B4C652BE9396700CAA037 /* SaveGameRecord.swift in Sources */,
+				0D3B4C662BE9396700CAA037 /* GameSaveModel+File.swift in Sources */,
+				0D3B4C692BE9396B00CAA037 /* SaveGameCell.swift in Sources */,
+				0D3B4C6C2BE9396B00CAA037 /* ContentView.swift in Sources */,
+				0D3B4C702BE9396E00CAA037 /* SaveGame+Security.swift in Sources */,
+				0D3B4C622BE9396200CAA037 /* Config.swift in Sources */,
+				0D3B4C6D2BE9396B00CAA037 /* SaveGameNavigationLink.swift in Sources */,
+				0D3B4C6F2BE9396E00CAA037 /* GameChapter.swift in Sources */,
+				0D3B4C6E2BE9396E00CAA037 /* SaveGame.swift in Sources */,
+				044AF17D2BEAE5F7000F0050 /* SyncException.swift in Sources */,
+				0D3B4C6B2BE9396B00CAA037 /* SavePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7F41222BDAFED7003D4EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7F41302BDB03AA003D4EEA /* CloudSaveTests.m in Sources */,
+				0D7F412F2BDB03A8003D4EEA /* CloudSaveTestHelper.m in Sources */,
+				04AE36DE2C0FF74600B47C68 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDDB8842BEC391B0066C04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDDB8992BEC394D0066C04D /* CloudSaveManager.m in Sources */,
+				0DDDB8982BEC39360066C04D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AE36E22C0FFC4C00B47C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040682E32B6B172B008D2270 /* SampleGame */;
+			targetProxy = 04AE36E12C0FFC4C00B47C68 /* PBXContainerItemProxy */;
+		};
+		0DDDB89B2BEC46D80066C04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDDB8872BEC391B0066C04D /* CloudSaveTestsTarget */;
+			targetProxy = 0DDDB89A2BEC46D80066C04D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040683072B6B1731008D2270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040683082B6B1731008D2270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0406830A2B6B1731008D2270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GameCloudSave.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Game Sample/GameSampleInfo.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CloudSaveSampleGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Cloud Save/CloudSaveManager.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0406830B2B6B1731008D2270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GameCloudSave.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Game Sample/GameSampleInfo.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CloudSaveSampleGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Cloud Save/CloudSaveManager.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D7F412D2BDAFED7003D4EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CloudSaveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudSaveTestsTarget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudSaveTestsTarget";
+			};
+			name = Debug;
+		};
+		0D7F412E2BDAFED7003D4EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CloudSaveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudSaveTestsTarget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudSaveTestsTarget";
+			};
+			name = Release;
+		};
+		0DDDB8942BEC391D0066C04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GameCloudSave.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CloudSaveTestsTarget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DDDB8952BEC391D0066C04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GameCloudSave.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CloudSaveTestsTarget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040682DF2B6B172B008D2270 /* Build configuration list for PBXProject "Game Cloud Save" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040683072B6B1731008D2270 /* Debug */,
+				040683082B6B1731008D2270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040683092B6B1731008D2270 /* Build configuration list for PBXNativeTarget "SampleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0406830A2B6B1731008D2270 /* Debug */,
+				0406830B2B6B1731008D2270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7F412C2BDAFED7003D4EEA /* Build configuration list for PBXNativeTarget "CloudSaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7F412D2BDAFED7003D4EEA /* Debug */,
+				0D7F412E2BDAFED7003D4EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDDB8962BEC391D0066C04D /* Build configuration list for PBXNativeTarget "CloudSaveTestsTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDDB8942BEC391D0066C04D /* Debug */,
+				0DDDB8952BEC391D0066C04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040682DC2B6B172B008D2270 /* Project object */;
+}

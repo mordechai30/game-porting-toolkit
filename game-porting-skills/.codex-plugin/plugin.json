@@ -1,0 +1,37 @@
+{
+  "name": "game-porting-skills",
+  "description": "Agent Skills to assist porting games to Apple platforms.",
+  "version": "1.0.0-beta.1",
+  "license": "Apache 2.0",
+  "author": {
+    "name": "Apple"
+  },
+  "keywords": [
+    "porting",
+    "games",
+    "graphics",
+    "gpu",
+    "metal4",
+    "metal-cpp",
+    "game-controller",
+    "metal-shaderconverter",
+    "metalfx",
+    "gpudebug",
+    "gpucapture"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "interface": {
+    "displayName": "Apple game porting skills",
+    "shortDescription": "Port DX12/Vulkan games to Metal 4 on Apple platforms",
+    "longDescription": "Expert skills, workflow skills, and a porting assistant agent for bringing DX12/Vulkan games to Metal 4 on Apple platforms. Covers API translation, shader conversion, synchronization, resource management, MetalFX upscaling, frame interpolation, GPU debugging, and the full milestone-based porting workflow.",
+    "developerName": "Apple",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Help me port this DX12 game to Metal 4",
+      "Translate this D3D12 call to Metal 4",
+      "Debug this Metal rendering issue"
+    ]
+  }
+}

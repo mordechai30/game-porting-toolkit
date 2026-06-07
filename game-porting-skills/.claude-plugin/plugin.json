@@ -1,0 +1,22 @@
+{
+  "name": "game-porting-skills",
+  "description": "Agent Skills to assist porting games to Apple platforms.",
+  "version": "1.0.0-beta.1",
+  "license": "Apache 2.0",
+  "author": {
+    "name": "Apple"
+  },
+  "keywords": [
+    "porting",
+    "games",
+    "graphics",
+    "gpu",
+    "metal4",
+    "metal-cpp",
+    "game-controller",
+    "metal-shaderconverter",
+    "metalfx",
+    "gpudebug",
+    "gpucapture"
+  ]
+}
