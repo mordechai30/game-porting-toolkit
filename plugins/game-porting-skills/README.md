@@ -2,6 +2,20 @@
 
 See the top-level [README](../../README.md) for installation and the workflow overview.
 
+## Codex packaging
+
+This package is in `plugins/game-porting-skills/` so the repository marketplace
+can load it with `./plugins/game-porting-skills`. `.codex-plugin/plugin.json`
+loads every directory in `skills/`.
+
+`porting-assistant` is a workflow skill. It routes porting requests through the
+milestone lifecycle and replaces the removed `agents/porting-assistant.md`.
+This is required because Codex plugin manifests do not support an `agents`
+field.
+
+The package also keeps Claude and Gemini metadata. Both use this package path
+and the shared skills.
+
 ## Expert skills
 
 Expert domain knowledge for porting games to Apple platforms.
@@ -27,11 +41,12 @@ Expert domain knowledge for porting games to Apple platforms.
 
 ## Workflow skills
 
-Work with the porting assistant agent to orchestrate milestones.
+Use `porting-assistant` to orchestrate milestones.
 
 | Workflow skill | Description |
 |---|---|
 | `porting-methodology` | Core methodology — porting goals, milestone lifecycle, escalation, stub conventions |
+| `porting-assistant` | Route a porting request through the milestone lifecycle |
 | `porting-discover` | Analyze the codebase before porting — produces a discovery report with Game Porting Toolkit evaluation, trace analysis, and feature coverage |
 | `porting-plan-goal` | Define the next porting goal with milestones |
 | `porting-start-milestone` | Prepare for the next milestone — study code, load skills, produce prep summary |

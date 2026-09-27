@@ -2,7 +2,7 @@
   "name": "game-porting-skills",
   "description": "Agent Skills to assist porting games to Apple platforms.",
   "version": "1.0.0-beta.1",
-  "license": "Apache 2.0",
+    "license": "Apache-2.0",
   "author": {
     "name": "Apple"
   },

@@ -49,6 +49,20 @@ git submodule update --init --recursive
 
 Installation differs depending on your coding agent of choice.
 
+### Plugin layout
+
+The Codex plugin is in `plugins/game-porting-skills/`. Its manifest loads every
+directory in `skills/`, including the workflow and expert skills. The repository
+marketplace is `.agents/plugins/marketplace.json`.
+
+`porting-assistant` is a skill, not a plugin agent. This keeps the workflow
+available through the supported Codex skill interface. The old `agents/` folder
+was removed because Codex does not accept an `agents` manifest field.
+
+Claude Code metadata remains in `.claude-plugin/` and points to the moved
+package. Gemini installs the same package directory. Both integrations use the
+shared skills; they do not use the removed agent folder.
+
 #### Claude Code
 
 - Register the marketplace:
