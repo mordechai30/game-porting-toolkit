@@ -1,7 +1,7 @@
 ---
 name: porting-validate
 description: Run the validation checklist before the milestone's final commit. Checks runtime verification, visual correctness, reference artifact comparison, Metal validation, memory leaks, skill-driven code review, and data flow verification. Can also be run mid-milestone.
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 You are entering Phase 3: Validate for the current milestone. The milestone's work is functionally complete. Mid-milestone commits for stable checkpoints are fine, but this full validation pass should happen before closing out the milestone.

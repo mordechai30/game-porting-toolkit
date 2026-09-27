@@ -9,7 +9,7 @@
       "name": "game-porting-skills",
       "description": "Expert and workflow skills to assist porting games to Apple platforms.",
       "version": "1.0.0-beta.1",
-      "source": "./game-porting-skills"
+            "source": "./plugins/game-porting-skills"
     }
   ]
 }

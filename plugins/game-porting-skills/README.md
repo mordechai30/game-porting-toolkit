@@ -1,6 +1,6 @@
 # Game Porting Toolkit 4 — Skill reference
 
-See the top-level [README](../README.md) for installation and the workflow overview.
+See the top-level [README](../../README.md) for installation and the workflow overview.
 
 ## Expert skills
 

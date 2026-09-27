@@ -10,7 +10,7 @@ The [Game Porting Toolkit](https://developer.apple.com/games/game-porting-toolki
 
 This repository includes: 
 
-- A collection of [agent skills](game-porting-skills/) to assist porting games to Apple platforms so you can produce higher-quality ports and ship on Apple platforms faster.
+- A collection of [agent skills](plugins/game-porting-skills/) to assist porting games to Apple platforms so you can produce higher-quality ports and ship on Apple platforms faster.
   - **Expert skills** that provide domain knowledge to AI agents - covering Metal 4, MetalFX, shader compilation, platform frameworks, and debugging tools.
   - **Workflow skills** that provide a streamlined, milestone-based porting process, pulling in expert skills and persisting state between sessions. 
 
@@ -88,12 +88,12 @@ Installation differs depending on your coding agent of choice.
 Install the extension from a local directory:
 
 ```
-gemini extensions install /path/to/game-porting-toolkit/game-porting-skills
+  gemini extensions install /path/to/game-porting-toolkit/plugins/game-porting-skills
 ```
 
 ### Porting with the workflow skills
 
-The workflow skills run a port as a resumable project, built on two levels: a **goal** spans many sessions ("get the simplest sample rendering"); a **milestone** is one session of bounded work toward it. `porting-methodology` is always loaded and defines the rules; the rest are steps you invoke, directly or through the `porting-assistant` agent.
+The workflow skills run a port as a resumable project, built on two levels: a **goal** spans many sessions ("get the simplest sample rendering"); a **milestone** is one session of bounded work toward it. `porting-methodology` is always loaded and defines the rules; the rest are steps you invoke, directly or through the `porting-assistant` skill.
 
 1. **Discover** (`porting-discover`) — analyze the codebase; write a discovery report. Once per codebase.
 2. **Plan a goal** (`porting-plan-goal`) — pick the simplest target; break it into dependency-ordered milestones.
@@ -106,7 +106,7 @@ The workflow skills run a port as a resumable project, built on two levels: a **
 
 State lives on disk in `.porting/` (discovery report, goal documents, handoff notes, `porting-memory.md`), so a port survives session boundaries and context resets.
 
-For the full list of expert and workflow skills, see [game-porting-skills/README.md](game-porting-skills/README.md).
+For the full list of expert and workflow skills, see [game-porting-skills/README.md](plugins/game-porting-skills/README.md).
 
 ## Samples
 

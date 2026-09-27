@@ -1,7 +1,7 @@
 ---
 name: porting-start-milestone
 description: Begin the next milestone. Reads the goal document and latest handoff note, loads relevant skills, studies code paths, and produces a preparation summary for user review. Does NOT write code.
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 You are entering Phase 1: Prepare for the current milestone.

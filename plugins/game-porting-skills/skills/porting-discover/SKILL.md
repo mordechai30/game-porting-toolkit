@@ -1,7 +1,7 @@
 ---
 name: porting-discover
 description: Analyze a codebase before starting a Metal 4 port. Produces a discovery report with platform readiness, graphics backend analysis, feature coverage matrix, and trace-grounded findings. Use before any porting work begins.
-disable-model-invocation: true
+disable-model-invocation: false
 context: fork
 agent: general-purpose
 ---

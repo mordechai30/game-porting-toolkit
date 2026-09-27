@@ -1,7 +1,7 @@
 ---
 name: porting-execute
 description: Begin writing code for the current milestone. This is the explicit go-signal after /porting-start-milestone preparation has been reviewed and approved by the user.
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 You are entering Phase 2: Execute for the current milestone. The user has reviewed and approved the preparation summary from `/porting-start-milestone`.

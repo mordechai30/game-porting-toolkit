@@ -1,7 +1,7 @@
 ---
 name: porting-plan-goal
 description: Define the next porting goal. Reads the discovery report and current porting state, proposes a goal with milestones, and creates a goal document.
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 
