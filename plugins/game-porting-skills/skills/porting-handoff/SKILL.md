@@ -1,7 +1,6 @@
 ---
 name: porting-handoff
 description: Close out the current milestone. Prompts the user to commit, updates porting-memory.md (watch list and feature status), writes a handoff note, updates the goal document milestone status, and requests a context reset.
-disable-model-invocation: false
 ---
 
 You are entering Phase 4: Handoff for the current milestone.

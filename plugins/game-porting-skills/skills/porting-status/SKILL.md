@@ -1,7 +1,6 @@
 ---
 name: porting-status
 description: Show the current porting status. Reads the goal document, porting-memory.md, and latest handoff note to report where things stand. Read-only — does not continue any work.
-disable-model-invocation: false
 ---
 
 You are checking the current porting status. This is read-only — do NOT continue any work or start any implementation.

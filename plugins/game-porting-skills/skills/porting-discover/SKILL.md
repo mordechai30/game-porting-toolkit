@@ -1,9 +1,6 @@
 ---
 name: porting-discover
 description: Analyze a codebase before starting a Metal 4 port. Produces a discovery report with platform readiness, graphics backend analysis, feature coverage matrix, and trace-grounded findings. Use before any porting work begins.
-disable-model-invocation: false
-context: fork
-agent: general-purpose
 ---
 
 You are preparing to port a game or engine to Apple platforms with Metal 4. Before writing any porting code, you must understand the target codebase thoroughly and gather any available reference artifacts.
