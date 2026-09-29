@@ -1,0 +1,6 @@
+# Project-local MCP configuration for Codex.
+[mcp_servers.metal_tools]
+command = "python3"
+args = ["mcp_server/server.py"]
+cwd = "."
+disabled_tools = ["metal_command"]
